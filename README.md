@@ -1,3 +1,3 @@
-# my-first-project
+# business promotion
 
-This is my first project
+This is Business Promotion Project
