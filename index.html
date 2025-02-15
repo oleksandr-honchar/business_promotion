@@ -4,25 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business promotion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500&family=Inter:opsz,wght@14..32,500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./images/logo.svg" alt="Logo" width="40" height="36" />
-        Product
-      </a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./resources.html">Resources</a></li>
+    <header class="header">
+      <div class="container header-container">
+        <a href="./index.html" class="logo">
+          <img
+            src="./images/logo.svg"
+            alt="Logo"
+            width="40"
+            height="36"
+            class="logo-img"
+          />
+          Product
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link current" href="./index.html">Product</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./customers.html">Customers</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./resources.html">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-btn-list">
+          <li class="header-btn-item">
+            <button class="header-btn" type="button">Sign In</button>
+          </li>
+          <li class="header-btn-item">
+            <button class="header-btn" type="button">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
@@ -223,7 +258,7 @@
           <li>
             <h3>Free</h3>
             <p>Brief price description</p>
-            <p>0 $ Per/month</p>
+            <h4>0 $ Per/month</h4>
             <ul>
               <li>Only 2 Operators</li>
               <li>Notifications</li>
@@ -234,7 +269,7 @@
           <li>
             <h3>Standard</h3>
             <p>Brief price description</p>
-            <p>5 $ Per/month</p>
+            <h4>5 $ Per/month</h4>
             <ul>
               <li>5+ Operators</li>
               <li>Notifications</li>
@@ -245,7 +280,7 @@
           <li>
             <h3>Premium</h3>
             <p>Brief price description</p>
-            <p>10 $ Per/month</p>
+            <h4>10 $ Per/month</h4>
             <ul>
               <li>10+ Operators</li>
               <li>Notifications</li>
@@ -340,26 +375,37 @@
     <footer>
       <a href="./index.html">
         <img src="./images/logo.svg" alt="Logo" width="40" height="36" />
-        Product
-      </a>
-      <img
-        src="./images/instagram.svg"
-        alt="Instagram Logo"
-        width="40"
-        height="40"
-      />
-      <img
-        src="./images/facebook.svg"
-        alt="Facebook Logo"
-        width="40"
-        height="40"
-      />
-      <img
-        src="./images/twitter.svg"
-        alt="Twitter Logo"
-        width="40"
-        height="40"
-      />
+        Product</a
+      >
+      <ul>
+        <li>
+          <img
+            src="./images/instagram.svg"
+            alt="Instagram Logo"
+            width="40"
+            height="40"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/facebook.svg"
+            alt="Facebook Logo"
+            width="40"
+            height="40"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/twitter.svg"
+            alt="Twitter Logo"
+            width="40"
+            height="40"
+          />
+        </li>
+      </ul>
+
+      <p></p>
+
       <ul>
         <li>
           <h2>Resource</h2>
@@ -391,6 +437,9 @@
         </li>
       </ul>
       <p>Made With Love By Figmaland All Right Reserved</p>
+      <form action="">
+        <label for=""> </label>
+      </form>
     </footer>
   </body>
 </html>
