@@ -97,3 +97,104 @@ button {
   color: #fff;
   border-color: transparent;
 }
+
+/* HERO */
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 25px 0 100px 0;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text-group {
+  display: block;
+  width: 465px;
+  height: 331px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #22343d;
+}
+
+.hero-text {
+  max-width: 432px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #22343d;
+}
+
+.hero-list {
+  display: flex;
+}
+
+.hero-list-item {
+  display: flex;
+}
+
+.hero-btn-start {
+  border-radius: 4px;
+  width: 178px;
+  height: 53px;
+}
+
+.hero-btn-video {
+  border-radius: 4px;
+  min-width: 164px;
+  height: 53px;
+}
+
+.section-features {
+  margin: auto;
+}
+.container {
+}
+.features-container {
+}
+.features-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+  padding: 0 285px 50px 286px;
+}
+.features-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.features-list-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.features-list-item-header {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+  padding: 0 80.75px 13px 0px;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+.signup-btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  margin: auto;
+  background-color: #02897a;
+  border-radius: 4px;
+  width: 175px;
+  height: 53px;
+}
