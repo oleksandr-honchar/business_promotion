@@ -178,7 +178,7 @@ button {
   text-align: center;
   color: #22343d;
   max-width: 506px;
-  margin: 0 auto;
+  margin: 100px auto 50px;
 }
 .features-list {
   display: flex;
