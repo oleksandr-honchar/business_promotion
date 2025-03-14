@@ -409,12 +409,13 @@ button {
 .experts-list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   column-gap: 100px;
   row-gap: 25px;
 }
 .experts-list-item {
-  width: calc(round((100% - 100px) / 2));
+  width: calc(round((100% - 3 * 100px) / 4));
   height: calc(98px);
 }
 
@@ -423,7 +424,9 @@ button {
   overflow: hidden;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
+  width: 408px;
 }
 
 .experts-list-text {
